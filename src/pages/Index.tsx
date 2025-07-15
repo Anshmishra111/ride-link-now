@@ -31,10 +31,10 @@ const Index = () => {
                 Book a ride in minutes. Track your driver in real-time. Get to your destination safely and comfortably.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-lg px-8">
+                <Button size="lg" className="text-lg px-8" onClick={() => window.location.href = '/book-ride'}>
                   Book a Ride
                 </Button>
-                <Button size="lg" variant="outline" className="text-lg px-8">
+                <Button size="lg" variant="outline" className="text-lg px-8" onClick={() => window.location.href = '/become-driver'}>
                   Become a Driver
                 </Button>
               </div>
